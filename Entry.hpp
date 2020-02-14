@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <SFML/Graphics.hpp>
+#include <TGUI/TGUI.hpp>
 class Entry
 {
 	private:
@@ -17,7 +19,7 @@ class Entry
 		std::string ToString();
 		void SetName(std::string name);
 		void SetPhone(std::string phone);
-		void SetAddress(std::string address);
-	
+		void SetAddress(std::string address); 
+
 };
 

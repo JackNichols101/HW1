@@ -1,4 +1,6 @@
 #include "Entry.hpp"
+#include <SFML/Graphics.hpp>
+#include <TGUI/TGUI.hpp>
 Entry::Entry()
 {
 	this->name = "";
@@ -44,7 +46,10 @@ std::string Entry::GetAddress()
 
 std::string Entry::ToString()
 {
-	return std::string(this->name + " " + this->phone + " " + this->address);
+	return this->name + " " + this->phone + " " + this->address;
 }
+
+
+
 
 
